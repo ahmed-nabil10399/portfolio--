@@ -1328,3 +1328,46 @@ body, html {
   @media (max-width: 575.98px) {
     .hero-wrap .hero-bg{background-attachment: initial!important; background-position: center center !important;}
   }
+
+  @media (max-width: 576px) {
+    .text-16 {
+      font-size: 20px !important;
+    }
+    nav .text-5 {
+      font-size: .9rem !important;
+    }
+  }
+
+  img.vbox-figlio {
+    width: 52%; 
+  }
+
+  .vbox-close{
+    top: 5%;
+    width: 50px;
+    background-color: #0062cc !important;
+    right: 5%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .vbox-next {
+    right: 5%;
+    color: #0062cc !important;
+  }
+
+  .vbox-prev {
+    left: 5%;
+    color: #0062cc !important;
+  }
+  .vbox-next span ,
+  .vbox-prev span   {
+    width: 30px;
+    height: 30px;
+    border-top-color: #0062cc !important;
+    border-right-color: #0062cc !important;
+  }
+
