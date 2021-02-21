@@ -8,9 +8,9 @@ $(window).on('load', function () {
 	$('body').delay(333);
 
 	// venobox
-	$(document).ready(function(){
+	
 		$('.venobox').venobox(); 
-	  });
+	 
 
 
 	// Header Sticky
