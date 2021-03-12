@@ -12,8 +12,10 @@ $(window).on('load', function () {
 	$('.preloader').delay(333).fadeOut('slow'); // will fade out the white DIV that covers the website.
 	$('body').delay(333);
 
-	
-
+	// venobox
+	$(document).ready(function(){
+		$('.venobox').venobox(); 
+	});
 
 	// Header Sticky
 	$(window).on('scroll',function() {
